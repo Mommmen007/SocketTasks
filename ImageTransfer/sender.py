@@ -2,7 +2,7 @@ import os
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(("localhost", 9999))
+client.connect(("localhost", 1231))
 
 file = open("cvm.pdf", "rb")
 file_size = os.path.getsize("cvm.pdf")
